@@ -1,0 +1,230 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(70, 65, 65);
+    font-family: Poppins;
+}
+
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(rgb(56, 49, 49),black);
+    padding: 0;
+}
+.navbar-brand img{
+    height: 40px;
+    padding-left: 20px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: #fff!important;
+    font-weight: 600px;
+    text-align: left;
+}
+.fa-bars{
+    color: #fff;
+    font-size: 30px !important;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+.nav-link:hover{
+    border-color: grey!important;
+    color: rgb(255, 217, 0)!important;
+}
+
+
+/*Banner*/
+.banner{
+    width: 100%;
+    height: auto;
+    min-height: 1000px;
+    background-image: url(images/1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+   padding: 200px 0 100px 0;  
+}
+.banner h6{
+    color: white;
+    font-style: italic;
+    font-size: 30px;
+}
+.banner h1{
+    color: white;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+.link{
+    padding: 10px 27px;
+    background-color: rgb(255, 217, 0)!important;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+
+
+/*Services*/
+#services{
+    padding: 80px 0;
+}
+.services{
+    padding: 20px;
+}
+.services h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.services h1{
+    font-weight: bold;
+}
+.services p{
+    color: #757070;
+}
+.title{
+    font-style: italic;
+    color: #757070;
+}
+.icons{
+    background-color: rgb(255, 217, 0)!important;
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    color: #fff;
+    margin-top: 30px;
+    padding: 30px;
+}
+
+
+
+/*Portfolio*/
+#portfolio{
+    padding: 80px 0;
+    background-color: #f7f3f3;
+}
+.portfolio{
+    padding: 20px;
+}
+.portfolio h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.portfolio h1{
+    font-weight: bold;
+}
+.portfolio p{
+    color: #757070;
+}
+.image p{
+    font-style: italic;
+    color: #757070;
+}
+
+
+
+/*About*/
+#about{
+    padding: 80px 0;
+}
+.about{
+    padding: 20px;
+}
+.portfolio h1{
+    font-weight: bold;
+}
+.about h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+
+/*Team*/
+#team{
+    padding: 80px 0;
+    background-color: #f7f3f3;
+}
+.team{
+    padding: 20px;
+}
+.portfolio h1{
+    font-weight: bold;
+}
+.team h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.titre{
+    color: #757070;
+}
+.picture{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 5px solid #c0b8b8;
+}
+
+
+/*Footer*/
+#footer{
+    padding: 80px 0;
+    background-image: linear-gradient(rgb(56, 49, 49),black);}
+.footer{
+    padding: 20px;
+}
+.footer h1{
+    font-weight: bold;
+    color: #fff;
+}
+.footer h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+ .footer input{
+    border: 1px solid rgb(218, 31, 31);
+    height: 70px;
+ }
+ .footer textarea{
+    height: 300px;
+    border: 1px solid rgb(255, 217, 0)!important;
+ }
+
+/*Foot*/
+#foot{
+    padding: 20px;
+}
+#foot p{
+    color: #757070;
+}
+.icon{
+    background-color: black;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    padding: 20px;
+    margin: 10px;
+}
+
