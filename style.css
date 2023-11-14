@@ -9,7 +9,9 @@ body{
 }
 
 #nav-bar{
+    position: sticky;
     top: 0;
+    z-index: 10;
 }
 .navbar{
     background-color: #222121;
@@ -90,6 +92,7 @@ body{
 }
 .services h1{
     font-weight: bold;
+    font-size: 30px;
 }
 .services p{
     color: #757070;
@@ -126,6 +129,7 @@ body{
 }
 .portfolio h1{
     font-weight: bold;
+    font-size: 30px;
 }
 .portfolio p{
     color: #757070;
@@ -146,6 +150,7 @@ body{
 }
 .portfolio h1{
     font-weight: bold;
+    font-size: 30px;
 }
 .about h4{
     padding: 5px;
@@ -224,8 +229,9 @@ body{
 .team{
     padding: 20px;
 }
-.portfolio h1{
+.team h1{
     font-weight: bold;
+    font-size: 30px;
 }
 .team h4{
     padding: 5px;
@@ -260,6 +266,7 @@ body{
 }
 .footer h1{
     font-weight: bold;
+    font-size: 30px;
     color: #fff;
 }
 .footer h4{
